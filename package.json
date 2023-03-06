@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "rm -rf dist/; npx webpack --config ./webpack.inject.config.js && npx webpack && cp manifest.json dist/"
+  },
+  "dependencies": {
+    "@secux/providers": "^3.0.3",
+    "@secux/transport-handler": "^1.0.0",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "tslib": "^2.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
